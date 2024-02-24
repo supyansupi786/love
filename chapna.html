@@ -26,7 +26,7 @@
     width:100%;
     text-align:center;
     color:white;
-    font-family:cursive;
+    font-family:'Times New Roman', Times, serif;
   }
   
   
@@ -83,7 +83,7 @@
 <div class="container">
  
 
-<h2 id="text1"></h2>
+<h1 id="text1"></h1>
 
 
   </div>
@@ -105,7 +105,7 @@
     
     var i = 0;
     var txt1 = "Hi Sawpna.....!  <<               Now I wan't to say something special to you. <<<                So , Please read everything carefully...!                                                                           > When I saw you for the first time < You seems something Special to me.  <<                  As the days goes < you get closer to me....! <<                           I don't know the reason why your thoughts always resonates inside my mind...!                                                     > Everything about you is always intresting for me...!                     << I am somewhat nervous Because I haven't said these words to anyone and I won't say to anyone in future...!                                                     > I Love my Parents so much than anything else in this world....!                    << Now You are the only person  whom I love equally with my parents....!                                                             >I Love U <Swapna.....! |                 ";
-    var speed = 50;
+    var speed = 80;
     typeWriter();
     function typeWriter() {
       if (i < txt1.length) {        
@@ -115,7 +115,7 @@
           document.getElementById("text1").innerHTML = ''
         else if(txt1.charAt(i)=='|')
           {
-            $(".bg_heart").css("background-image","url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtoXjqhnQeYxuc3rdub5pJGItn-pPdK7qTzItmzoWU6Q&s')");
+            $(".bg_heart").css("background-image","url('')");
     
           }
         else
